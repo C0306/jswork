@@ -3,22 +3,21 @@
     padding: 0 10px 10px;
     border: 1px solid #D5E5F5;
 }
-
 .cart-title {
     margin-bottom: 10px;
     font-size: 14px;
-    border-bottom: 1px solid #AED2FF;
+    border-bottom: 1px solid #aed2ff;
     line-height: 30px;
     height: 30px;
     font-weight: 700;
     text-indent: 15px;
     color: #333;
-    font-family:  'Microsoft YaHei';
+    font-family: 'Microsoft YaHei';
 }
 
 .cart-table {
     width: 100%;
-    margin:  0 auto;
+    margin: 0 auto;
     border-collapse: collapse;
     font-size: 12px;
     font-family: Verdana, "Microsoft YaHei";
@@ -34,7 +33,7 @@
 
 .cart-item {
     background-color: #FAFCFF;
-    border-bottom: 1px dotted #84B3FD;
+    border-bottom: 1px dotted #84B3Fd;
 }
 
 .cart-item td {
@@ -46,13 +45,8 @@
     text-align: left;
 }
 
-.cart-came {
+.cart-name {
     color: #3366D4;
-    font-weight: bold;
-}
-
-.cart-subtotal {
-    color: #FF3334;
     font-weight: bold;
 }
 
@@ -62,8 +56,8 @@
     width: 16px;
     height: 16px;
     line-height: 16px;
-    color: #FFF;
-    background-color: #BDBDBD;
+    color: #fff;
+    background-color: #bdbdbd;
     border: 0;
     cursor: pointer;
     border-radius: 2px;
@@ -71,8 +65,7 @@
     font-size: 13.3333px;
 }
 
-.cart-reduce:hover,
-.cart-add:hover {
+.cart-reduce:hover {
     background-color: #FF9900;
 }
 
@@ -85,18 +78,22 @@
     padding: 0 3px;
     display: inline-block;
     background: #fff;
-    border: 1px solid #bbb
+    border: 1px solid #bbb;
 }
 
 .cart-del,
-.cart-all {
+.cart-all,
+.cart-unall,
+.cart-agcheck {
     color: #3366D4;
 }
 
 .cart-del:hover,
-.cart-all:hover {
+.cart-all:hover,
+.cart-unall:hover,
+.cart-agcheck:hover {
     text-decoration: underline;
-    cursor: pointer;
+    cursor:pointer
 }
 
 .cart-bottom {
@@ -104,19 +101,19 @@
     text-align: right;
 }
 
-.cart-bottom .cart-all {
+.cart-bttom,.cart-all,.cart-unall,.cart-agcheck {
     position: relative;
     top: 1px;
 }
 
 .cart-total-price {
-    color: #FF3334;
+    color: #ff3334;
     font-weight: bold;
     font-size: 16px;
 }
 
 .cart-bottom-btn {
-    color: #FF3334;
+    color: #fff;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
